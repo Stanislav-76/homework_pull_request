@@ -32,3 +32,5 @@ git checkout code_commit
 Чтобы вернуться к самому последнему состоянию
 
 git checkout master
+
+![batman](batman.jpg)
