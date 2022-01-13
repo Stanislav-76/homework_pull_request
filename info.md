@@ -6,3 +6,18 @@ git init
 Усли имя пользователя и почиа ещё не были заданы
 git config --global user.name
 git config --global user.emeil
+
+
+## Работа с файлами
+
+Для того чтобы добавить файл, нужно:
+1. git add file_name
+    добавляем файл с именем file_name для отслеживания
+2. git commit -m "some message"
+
+    добавляем текущие изменения в репозиторий и подлписываем их с помощью тега -m
+
+Чтобы отследить состояние репозитория:
+1. git status
+2. git log
+3. git diff
