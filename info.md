@@ -34,3 +34,14 @@ git checkout code_commit
 git checkout master
 
 ![batman](batman.jpg)
+
+
+## Ветки в git
+Чтобы посмотреть все ветки:
+> git branch
+
+для создания новой веткис именеи branch_name:
+> git branch branch_name
+
+Переместиться к ветке с именем branch_name:
+> git checkout branch_name
