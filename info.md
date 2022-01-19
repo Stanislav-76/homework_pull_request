@@ -46,6 +46,15 @@ git checkout master
 Переместиться к ветке с именем branch_name:
 > git checkout branch_name
 
+<<<<<<< HEAD
 ## Слияние веток и решение кофликтов
 Чтобы слить информацию из ветки branch_name в текущую:
 > git merge branch_name
+=======
+## Удаление веток
+Для того чтобы удалить ветку с именем branch_name:
+> git branch -d branch_name
+
+Удаление с игнорированием ошибок:
+> git branch -D branch_name
+>>>>>>> delete_info
